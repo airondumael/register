@@ -1,3 +1,50 @@
-body {
-    background: #f00;
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    align-self: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px #ddd;
+    box-sizing: border-box;
+    margin: auto;
+    width: 500px;
+    padding: 1em;
+}
+
+.pure-form input[type=text].error, 
+.pure-form input[type=password].error, 
+.pure-form input[type=email].error,
+.pure-form input[type=url].error,
+.pure-form input[type=date].error,
+.pure-form input[type=month].error,
+.pure-form input[type=time].error,
+.pure-form input[type=datetime].error,
+.pure-form input[type=datetime-local].error,
+.pure-form input[type=week].error,
+.pure-form input[type=number].error,
+.pure-form input[type=search].error,
+.pure-form input[type=tel].error,
+.pure-form input[type=color].error,
+.pure-form select.error,
+.pure-form textarea.error {
+    border: 1px solid #f00;
+}
+
+div.validation-error {
+    text-align: right;
+    line-height: 1.2em;
+    font-size: .8em;
+    color: #f00;
+    margin-top: 8px;
+}
+
+button img.loader {
+    margin-right: 1em;
+}
+
+.stretch{
+  width:100%;
 }
