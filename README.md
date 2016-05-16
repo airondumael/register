@@ -1,6 +1,6 @@
 Registration Form
 ===
-A simple registration form.
+A simple registration form. [DEMO](http://airondumael.github.io/register/)
 
 How to use.
 ---
